@@ -1,0 +1,16 @@
+.image{
+    height: 150px;
+    width: 300px;
+    background-size: cover;
+    text-align: justify;
+    color: white;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 30px;
+    padding: 15px 50px;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  #tyrell{
+  background-image: url('https://static.wikia.nocookie.net/bladerunner/images/9/9f/Tyrellbuilding.jpg/revision/latest/scale-to-width-down/1000?cb=20190725060704');
+  }
+  

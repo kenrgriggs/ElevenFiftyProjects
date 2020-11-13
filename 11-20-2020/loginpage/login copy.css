@@ -1,0 +1,57 @@
+.wrapper {
+    font-family: sans-serif;
+    color: floralwhite;
+    font-size: 30px;
+    background: linear-gradient(
+        180deg, 
+        rgb(58, 49, 68) 0%, 
+        rgb(139, 95, 106) 75%
+        );
+        height: 100vh;
+        margin: 0px;
+}
+
+a {
+    font-family: sans-serif;
+    color: floralwhite;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+.a:hover {
+    background-color: rgb(72, 48, 92);
+}
+
+.horizontal {
+    list-style-type: none;    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  rgb(107, 62, 109) 100%;
+}
+
+.navbar {
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: rgb(96, 85, 105);
+    margin: 0px;
+    padding: 5px;
+}
+
+.login {
+    font-family: sans-serif;
+    text-align: center;
+    background-color:  rgb(123, 106, 136);
+    width: 50%;
+    height: 100px;
+    border-radius: 6px;
+
+}
+
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+
+}

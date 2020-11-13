@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+
+    <h2>Basic Form with input field</h2>
+    <div class="form-one">
+        <form>
+            <p><label>Customer Name: <input></label></p>
+            <p><label>Street Address: <input></label></p>
+            <p><label>City: <input></label></p>
+            <p><label>Area Code: <input></label></p>
+            <p><label>Telephone: <input></label></p>
+        </form>
+    </div>
+
+    <br />
+
+    <form>
+        <fieldset>
+            <legend> Customer Information </legend>
+            <p><label>Customer name: <input></label></p>
+            <p><label>Telephone: <input type=tel></label></p>
+            <p><label>E-mail address: <input type=email></label></p>
+        </fieldset>
+        <br />
+        <legend>Biggest Burritos in the World!</legend>
+        <p><input type="checkbox" name="fixins" id="onions"><lable for="onions"> Sauteed Onions </lable></p>
+        <p><input type="checkbox" name="fixins" id="Guacamole"><lable for="Guacamole"> Guacamole </lable></p>
+        <p><input type="checkbox" name="fixins" id="Queso"><lable for="Queso"> Queso </lable></p>
+        <p><input type="checkbox" name="fixins" id="Lettuce"><lable for="Lettuce"> Lettuce </lable></p>
+        <p><input type="checkbox" name="fixins" id="beans"><lable for="beans"> Refried beans </lable></p>
+        <p><input type="checkbox" name="fixins" id="rice"><lable for="rice"> Rice </lable></p>
+        <p><input type="checkbox" name="fixins" id="ranch"><lable for="ranch"> Ranch, if you hate yourself </lable></p>
+        </fieldset>
+        <br />
+        <fieldset>
+            <p>Preferred delivery time: <input type=time min="11:00" max="21:00" step="900"></p>
+            <p>Delivery Instructions: <textarea></textarea></p>
+            <p><button>Submit Order</button></p>
+        </fieldset>
+    </form>
+</body>
+</html>
